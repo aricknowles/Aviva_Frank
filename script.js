@@ -15,7 +15,7 @@ $(function () {
       afterRender:function() {}
     });
 });
-$(document).on('click', '.scroll-link', function(event) {
+$(document).on('click','.scroll-link', function(event) {
     var anchor = $(this).attr('href');
     $('body, html').animate({
       scrollTop: ($(anchor).offset().top)
