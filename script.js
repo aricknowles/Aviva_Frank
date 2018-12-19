@@ -1,4 +1,6 @@
-$(function() {
+/*jslint browser: true*/
+/*global $, jQuery*/
+$(function () {
   $.scrollify({
       section : ".panel",
     interstitialSection : ".footer",
