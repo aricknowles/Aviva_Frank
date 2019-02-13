@@ -3,10 +3,12 @@
 $(function () {
   $.scrollify({
       section : ".panel",
-    interstitialSection : ".footer",
+      sectionName : "section-name",
       easing: "easeOutExpo",
       scrollSpeed: 800,
       offset : 0,
+      overflowScroll:true,
+      setHeights: true,
       scrollbars: true,
       standardScrollElements: "",
       before:function() {},
