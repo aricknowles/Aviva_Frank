@@ -8,7 +8,7 @@ $(function () {
       scrollSpeed: 800,
       offset : 0,
       overflowScroll:true,
-      setHeights: true,
+      setHeights: false,
       scrollbars: true,
       standardScrollElements: "",
       before:function() {},
